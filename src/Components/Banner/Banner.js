@@ -3,12 +3,14 @@ import bannerImg from '../../assets/desktop/image-interactive.jpg'
 import { StylesBanner } from "../Banner/StyleBanner";
 
 const Banner = () => {
+
     return (
         <>
         <StylesBanner className="banner">
             <figure>
             <img src={bannerImg} alt="guy with VR lens" />
             </figure>
+            
 
             <article className="banner-text">
             <h2>The leader in interactive VR</h2>
