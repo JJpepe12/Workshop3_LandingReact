@@ -1,6 +1,7 @@
 import React from "react";
-import Banner from "../Banner/Banner";
 import GlobalStyles from "./StyleApp";
+import Banner from "../Banner/Banner";
+import MainHeader  from "../Main/MainHeader";
 import Footer from '../Footer/Footer'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
         <>
         <GlobalStyles />
         <Banner />
+        <MainHeader/> 
         <Footer/>
         </>
     );
