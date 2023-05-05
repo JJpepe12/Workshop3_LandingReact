@@ -9,8 +9,7 @@ import TheCuriosity from "../../assets/desktop/image-curiosity.jpg";
 import MakeItFisheye from "../../assets/desktop/image-fisheye.jpg";
 
 
-   
-      export const CardsContainer = [
+    export const CardsContainer = [
         {
             id: 1,
             image: DeepEarth,
