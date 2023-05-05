@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { CardsContainer } from "./Data";
 import { Container } from "./StylesMainHeader";
 
