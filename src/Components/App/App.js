@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
+import Banner from "../Banner/Banner";
+import GlobalStyles from "./StyleApp";
 import Footer from '../Footer/Footer'
 
-export const App = () => {
-  return (
-    <div>
+const App = () => {
+    return (
+        <>
+        <GlobalStyles />
+        <Banner />
         <Footer/>
-    </div>
-  )
-}
+        </>
+    );
+};
 
-export default App
+export default App;
