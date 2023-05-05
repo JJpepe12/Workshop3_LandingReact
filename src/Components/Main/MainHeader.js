@@ -14,17 +14,17 @@ return (
         <button> 
         SEE ALL
         </button> 
-        <div>
+        
         <stylesMain> 
         
             {CardsContainer.map((item,index) =>(
-            <img key={`${item.image}-${index}`}>{item.image}</img>
+            <img src= {item.image} key={`${item.image}-${index}`}/>
             ))}
     
     </stylesMain>
 
 
-        </div> 
+         
     </Container>
 )
 }

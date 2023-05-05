@@ -1,2 +1,2 @@
 import styled from "styled-components";
-export const stylesMain = styled.main ``;
+export const stylesMain = styled.div ``;

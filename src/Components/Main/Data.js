@@ -1,4 +1,4 @@
-import { React } from "react";
+
 import DeepEarth from "../../assets/desktop/image-deep-earth.jpg";
 import NightArcade from "../../assets/desktop/image-night-arcade.jpg";
 import SoccerTeam from "../../assets/desktop/image-soccer-team.jpg";
@@ -7,7 +7,7 @@ import FromUpAboveVr from "../../assets/desktop/image-from-above.jpg";
 import PocketBorealis from "../../assets/desktop/image-pocket-borealis.jpg";
 import TheCuriosity from "../../assets/desktop/image-curiosity.jpg";
 import MakeItFisheye from "../../assets/desktop/image-fisheye.jpg";
-import {stylesMain} from "../Main/StylesHeader";
+
 
    
       export const CardsContainer = [
