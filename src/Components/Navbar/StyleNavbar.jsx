@@ -3,20 +3,21 @@ export const StylesNav = styled.nav`
 display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px 200px 0;
+  padding: 50px 100px 0;
   
   ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 25px;
     align-items: center;
     color: white;
-    font-size: 40px;
+    font-size: 18px;
+   
    
     
 
   }
   img {
-    width: 30rem;
+    width: 10rem;
   }
 `;
