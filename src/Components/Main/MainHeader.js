@@ -1,6 +1,8 @@
 import React from "react";
 import { CardsContainer } from "./Data";
 import { Container } from "./StylesMainHeader";
+import { agents } from "../../data/Data";
+import Cards from "../Cards/Cards";
 
 
 const MainHeader= () =>{
@@ -12,15 +14,7 @@ return (
             SEE ALL
             </button> <br/>
         </div>
-            <stylesMain className="stylesMain"> 
-                {CardsContainer.map((item,index) =>(
-                <img src= {item.image} key={`${item.image}-${index}`}/>
-                ))}
-                {CardsContainer.map((item,index) =>(
-                <h3 key={`${item.name}-${index}`}> '{item.name}'</h3>
-                ))}
-            </stylesMain>   
-            
+        <section>{agents.map((agent)=><Cards key={ agent.id} agent={agent}/>)}</section>    
     </Container>
 );
 };

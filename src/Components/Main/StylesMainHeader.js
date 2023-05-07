@@ -31,7 +31,7 @@ export const Container = styled.div`
     }
     
     .stylesMain{
-        justify-content: center;
+        display: flex;
         width: 50%;
         img {
             width: 180px;
