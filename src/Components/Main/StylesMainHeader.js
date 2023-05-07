@@ -1,16 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-
     .cards_button{
         flex-direction: inline;
     }
     
     .stylesMain{
-        justify-content: center;
+        display: flex;
         width: 50%;
         img {
             width: 180px;
