@@ -1,8 +1,33 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+
     .cards_button{
-        flex-direction: inline;
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: -45%;
+            
+        button{
+        border: 2px solid #000;
+        padding: 10px 30px;
+        color: #000;
+        cursor: pointer;
+        font-family: 'Alata', sans-serif;
+        }
+
+        button:hover {
+        background-color: #000;
+        color: #fff;
+        }
+
     }
     
     .stylesMain{
@@ -31,5 +56,12 @@ export const Container = styled.div`
         margin-top: 5px;
         padding: 3%;
     }
+
+    .cards_button{
+        padding: 5px 0;
+        margin-left: -3%;
+        margin-right: 3%;
+        margin-top: -15%;
+        }
     }
 `;

@@ -1,4 +1,5 @@
 import React from "react";
+import { CardsContainer } from "./Data";
 import { Container } from "./StylesMainHeader";
 import { agents } from "../../data/Data";
 import Cards from "../Cards/Cards";
