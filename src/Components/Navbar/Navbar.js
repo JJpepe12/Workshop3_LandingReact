@@ -36,10 +36,10 @@ const handleClick = () =>{
 return (
     <StylesNav viewOption={viewOption}>
         <div>
-            <img src={logo} alt="logo"  />
+            <img className='logo' src={logo} alt="logo"  />
         </div>
         <IconHamburger onClick={handleClick}>
-            <img src= {viewOption ? HamburgerCancel : HamburgerNav} alt="" />
+            <img className='hamburguesa'src= {viewOption ? HamburgerCancel : HamburgerNav} alt="" />
         </IconHamburger>
         <MenuOptions navList={navList} viewOption={viewOption} />
     </StylesNav>
