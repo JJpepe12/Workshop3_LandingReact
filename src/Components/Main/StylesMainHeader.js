@@ -5,6 +5,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     font-family: 'Josefin Sans', sans-serif;
+    padding: 0% 7%;
 
     .cards_button{
         display: flex;
@@ -12,8 +13,8 @@ export const Container = styled.div`
         padding: 30px 0;
         flex-direction: row;
         justify-content: space-between;
-        margin-left: 5%;
-        margin-right: -45%;
+        margin-left: 3%;
+        margin-right: -55%;
             
         button{
         border: 2px solid #000;

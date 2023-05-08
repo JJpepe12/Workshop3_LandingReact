@@ -5,7 +5,7 @@ export const StylesCard = styled.article`
   display: inline-block;
   color: black;
   :active {
-    cursor: pointer;
+    filter: grayscale(100%);
   }
   :hover {
     opacity: 0.7;
@@ -15,7 +15,6 @@ export const StylesCard = styled.article`
 
     img {
       width: 250px;
-      cursor: pointer;
     }
   }
   .mobile {
@@ -31,9 +30,10 @@ export const StylesCard = styled.article`
       color: white;
       font-family: "Alata", sans-serif;
       font-weight: lighter;
-      font-size: 25px;
-      :hover {
+      font-size: 1.6rem;
+      :active {
         color: black;
+        -webkit-text-stroke: 0.1px white;
       }
     }
   }
