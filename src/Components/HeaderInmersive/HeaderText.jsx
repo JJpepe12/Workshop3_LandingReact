@@ -5,7 +5,6 @@ const HeaderInmersive = () => {
   return (
    <StylesText>
       <div>
-     
         <span>IMMERSIVE EXPERIENCES THAT DELIVER</span>
       </div>
    </StylesText>
