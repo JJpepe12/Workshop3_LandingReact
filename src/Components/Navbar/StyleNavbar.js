@@ -33,8 +33,10 @@ export const Ul = styled.ul `
     width: 100%;
     height: 98vh;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
+    padding: inherit;
+    margin-left: -115px;
   }
 `;
 
