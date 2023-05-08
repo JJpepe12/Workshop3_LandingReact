@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StylesBanner = styled.section`
-  padding: 5%;
+  padding: 3% 10%;
   position: relative;
 
   img {
@@ -11,7 +11,7 @@ export const StylesBanner = styled.section`
     position: absolute;
     width: 45%;
     background-color: white;
-    height: 44%;
+    height: 47%;
     top: 45%;
     right: 8%;
     padding: 20px;
@@ -35,7 +35,7 @@ export const StylesBanner = styled.section`
     text-align: center;
   
     img {
-      width: 100%;
+      width: 80%;
     }
     article {
       width: 100%;

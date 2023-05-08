@@ -58,7 +58,7 @@ const Footer = () => {
           </button>
         </nav>
         <div className="copyright">
-        <p>©️ 2021| LoopsStudios. All rigts reserved.</p>
+        <p>©️ 2021| LoopsStudios. All rights reserved.</p>
         </div>
         </div>
         

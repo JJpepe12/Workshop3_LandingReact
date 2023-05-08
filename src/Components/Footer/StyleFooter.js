@@ -3,31 +3,31 @@ import styled from "styled-components";
 export const StylesFooter = styled.nav`
   display: flex;
   flex-wrap: wrap;
-  gap: 720px;
+  gap: 50%;
   background-color: black;
-  padding: 40px;
+  padding: 2%;
   .copyright{
-    text-align: left;
+    text-align: center;
     p {
-      color: #7f7f7f;
+    color: #7f7f7f;
     font-size: 14px;
     font-family: "Alata", sans-serif;
-    margin-left: -115px;
     }
   }
   .contenedor_2 {
-    padding-top: 12px
+    align-items: center;
   }
   .Social_networks button img{
     width: 20px;
   }
   .Logo img {
     width: 140px;
+    margin-left: 30%;
   }
   .Link {
     display: flex;
     gap: 30px;
-    margin-left: 40px;
+    margin-left: 30%;
   }
   a {
     list-style: none;
@@ -77,14 +77,18 @@ export const StylesFooter = styled.nav`
       width: 20px;
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 376px) {
     gap: 5px;
+    width: 100%
+    display flex;
+    flex-direction: column;
+    align-items: center;
     p {
-      padding-left: 120px;
+      padding-left: 10%;
     }
     .Logo img {
-      display: flex;
       width: 200px;
+      margin-left: 15%;
     }
     .Link {
       display: inline-block;
@@ -94,9 +98,8 @@ export const StylesFooter = styled.nav`
       text-align: center;
     }
     .Social_networks {
-      margin-left: 60px;
-      padding-top: 10px;
-      gap: 2px;
+      margin-left: 35%;
+      gap: 10px;
     }
     .contenedor_2 {
       column-count: 1;

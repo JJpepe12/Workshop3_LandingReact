@@ -5,7 +5,7 @@ export const StylesCard = styled.article`
   display: inline-block;
   color: black;
   :active {
-    cursor: pointer;
+    filter: grayscale(100%);
   }
   :hover {
     opacity: 0.7;
@@ -15,23 +15,23 @@ export const StylesCard = styled.article`
 
     img {
       width: 250px;
-      cursor: pointer;
     }
   }
   .cardname {
     position: relative;
-    top: -120px;
-    left: 35%;
-    width: 40%;
+    top: -115px;
+    left: 25%;
+    width: 45%;
 
     h3 {
       display: flex;
       color: white;
       font-family: "Alata", sans-serif;
       font-weight: lighter;
-      font-size: 25px;
-      :hover {
+      font-size: 1.6rem;
+      :active {
         color: black;
+        -webkit-text-stroke: 0.1px white;
       }
     }
   }
