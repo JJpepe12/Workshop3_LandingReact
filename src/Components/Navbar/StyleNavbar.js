@@ -8,8 +8,9 @@ export const StylesNav = styled.nav`
   @media screen and (max-width: 376px) {
     padding: 40px 20;
     flex-direction: column;
-  
     background-color: ${props => props.viewOption ? 'black' : 'inherit'};
+    margin-left: -77px;
+   
   }
 `;
 
@@ -21,6 +22,9 @@ export const Ul = styled.ul `
   color: white;
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
+  
+  
+ 
   @media screen and (max-width: 376px) {
   //Evaluar si viewoption es true se aplica flex y si es false se aplica none
   //https://styled-components.com/docs/basics#adapting-based-on-props

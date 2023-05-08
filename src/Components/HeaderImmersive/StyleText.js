@@ -8,7 +8,7 @@ div{
     border:1px solid white;
     padding: 22px;
     @media screen and (max-width:376px){
-        width: 13rem;
+        width: 15rem;
         margin-left: 3.5rem;
     }
 
