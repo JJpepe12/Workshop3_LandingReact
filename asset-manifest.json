@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.js": "/Workshop3_LandingReact/static/js/main.21be04cf.js",
-    "static/media/image-hero.jpg": "/Workshop3_LandingReact/static/media/image-hero.9b5aacead42e955824d3.jpg",
-    "static/media/image-from-above.jpg": "/Workshop3_LandingReact/static/media/image-from-above.f316f3f3afc353415f71.jpg",
-    "static/media/image-interactive.jpg": "/Workshop3_LandingReact/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg",
-    "static/media/image-curiosity.jpg": "/Workshop3_LandingReact/static/media/image-curiosity.7f14665a1469d012697f.jpg",
-    "static/media/image-soccer-team.jpg": "/Workshop3_LandingReact/static/media/image-soccer-team.18a63d8df06f1baa727f.jpg",
-    "static/media/image-night-arcade.jpg": "/Workshop3_LandingReact/static/media/image-night-arcade.a4f25d3b0c5db392403a.jpg",
-    "static/media/image-deep-earth.jpg": "/Workshop3_LandingReact/static/media/image-deep-earth.2a157951527da6e48ac5.jpg",
-    "static/media/image-grid.jpg": "/Workshop3_LandingReact/static/media/image-grid.a8ce4f2b638181fb6920.jpg",
-    "static/media/image-fisheye.jpg": "/Workshop3_LandingReact/static/media/image-fisheye.ff97b54ec44101e44215.jpg",
-    "static/media/image-pocket-borealis.jpg": "/Workshop3_LandingReact/static/media/image-pocket-borealis.0b89db1f6a9c0e56dcfd.jpg",
-    "static/media/logo.svg": "/Workshop3_LandingReact/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg",
-    "static/media/icon-instagram.svg": "/Workshop3_LandingReact/static/media/icon-instagram.8d0df55595e16bac2d486efccdc6b4b3.svg",
-    "index.html": "/Workshop3_LandingReact/index.html",
-    "static/media/icon-pinterest.svg": "/Workshop3_LandingReact/static/media/icon-pinterest.61a3584463b61d0f0d6bc14bc5d1e40a.svg",
-    "static/media/icon-twitter.svg": "/Workshop3_LandingReact/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
-    "static/media/icon-facebook.svg": "/Workshop3_LandingReact/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
-    "static/media/icon-close.svg": "/Workshop3_LandingReact/static/media/icon-close.bbbbb0069bb8a015e77966ccb00bf3cd.svg",
-    "static/media/icon-hamburger.svg": "/Workshop3_LandingReact/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
-    "main.21be04cf.js.map": "/Workshop3_LandingReact/static/js/main.21be04cf.js.map"
+    "main.js": "/workshop3_landingreact/static/js/main.efe6dde5.js",
+    "static/media/image-hero.jpg": "/workshop3_landingreact/static/media/image-hero.9b5aacead42e955824d3.jpg",
+    "static/media/image-from-above.jpg": "/workshop3_landingreact/static/media/image-from-above.f316f3f3afc353415f71.jpg",
+    "static/media/image-interactive.jpg": "/workshop3_landingreact/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg",
+    "static/media/image-curiosity.jpg": "/workshop3_landingreact/static/media/image-curiosity.7f14665a1469d012697f.jpg",
+    "static/media/image-soccer-team.jpg": "/workshop3_landingreact/static/media/image-soccer-team.18a63d8df06f1baa727f.jpg",
+    "static/media/image-night-arcade.jpg": "/workshop3_landingreact/static/media/image-night-arcade.a4f25d3b0c5db392403a.jpg",
+    "static/media/image-deep-earth.jpg": "/workshop3_landingreact/static/media/image-deep-earth.2a157951527da6e48ac5.jpg",
+    "static/media/image-grid.jpg": "/workshop3_landingreact/static/media/image-grid.a8ce4f2b638181fb6920.jpg",
+    "static/media/image-fisheye.jpg": "/workshop3_landingreact/static/media/image-fisheye.ff97b54ec44101e44215.jpg",
+    "static/media/image-pocket-borealis.jpg": "/workshop3_landingreact/static/media/image-pocket-borealis.0b89db1f6a9c0e56dcfd.jpg",
+    "static/media/logo.svg": "/workshop3_landingreact/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg",
+    "static/media/icon-instagram.svg": "/workshop3_landingreact/static/media/icon-instagram.8d0df55595e16bac2d486efccdc6b4b3.svg",
+    "index.html": "/workshop3_landingreact/index.html",
+    "static/media/icon-pinterest.svg": "/workshop3_landingreact/static/media/icon-pinterest.61a3584463b61d0f0d6bc14bc5d1e40a.svg",
+    "static/media/icon-twitter.svg": "/workshop3_landingreact/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
+    "static/media/icon-facebook.svg": "/workshop3_landingreact/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
+    "static/media/icon-close.svg": "/workshop3_landingreact/static/media/icon-close.bbbbb0069bb8a015e77966ccb00bf3cd.svg",
+    "static/media/icon-hamburger.svg": "/workshop3_landingreact/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
+    "main.efe6dde5.js.map": "/workshop3_landingreact/static/js/main.efe6dde5.js.map"
   },
   "entrypoints": [
-    "static/js/main.21be04cf.js"
+    "static/js/main.efe6dde5.js"
   ]
 }
