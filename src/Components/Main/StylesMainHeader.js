@@ -60,9 +60,15 @@ export const Container = styled.div`
 
     .cards_button{
         padding: 5px 0;
-        margin-left: -3%;
-        margin-right: 3%;
-        margin-top: -15%;
+        position: relative;
+        button {
+            position: relative;
+            top: 1700px;
+            left: -260px;
+            font-size: 14px;
         }
+
+        }
+        
     }
 `;

@@ -7,14 +7,19 @@ export const StylesFooter = styled.nav`
   background-color: black;
   padding: 2%;
   .copyright{
+    text-align: left;
     text-align: center;
+
     p {
     color: #7f7f7f;
     font-size: 14px;
     font-family: "Alata", sans-serif;
+    margin-left: -115px;
+    margin-top: 7px;
     }
   }
   .contenedor_2 {
+    padding-top: -5px
     align-items: center;
   }
   .Social_networks button img{
@@ -27,7 +32,8 @@ export const StylesFooter = styled.nav`
   .Link {
     display: flex;
     gap: 30px;
-    margin-left: 30%;
+    margin-left: 5px;
+    margin-top: 15px;
   }
   a {
     list-style: none;
@@ -84,21 +90,23 @@ export const StylesFooter = styled.nav`
     flex-direction: column;
     align-items: center;
     p {
-      padding-left: 10%;
+     padding-left: 140px;
     }
     .Logo img {
       width: 200px;
-      margin-left: 15%;
+      margin-left: 55px;
     }
     .Link {
       display: inline-block;
       width: 60%;
       margin-top: 20px;
+      margin-left: 75px;
       line-height: 30px;
       text-align: center;
     }
     .Social_networks {
-      margin-left: 35%;
+      margin-left: 100px;
+      padding-top: 15px;
       gap: 10px;
     }
     .contenedor_2 {

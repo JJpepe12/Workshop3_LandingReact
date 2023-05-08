@@ -12,8 +12,8 @@ import NighMobile from "../assets/mobile/image-night-arcade.jpg"
 import TheGridMobile from "../assets/mobile/image-grid.jpg"
 import FromUpMobile from "../assets/mobile/image-from-above.jpg"
 import PocketBorealisMobile from "../assets/mobile/image-night-arcade.jpg"
-import TheCuriosityMobile from "../assets/mobile/image-pocket-borealis.jpg"
-import MakeItFisheyeMobile from "../assets/mobile/image-pocket-borealis.jpg"
+import TheCuriosityMobile from "../assets/mobile/image-curiosity.jpg"
+import MakeItFisheyeMobile from "../assets/mobile/image-fisheye.jpg"
 
 
     export const agents = [
