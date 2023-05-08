@@ -8,7 +8,7 @@ export const StylesHeader = styled.header`
    height: 40rem;
    
 
-   @media screen and (max-width:375px){
+   @media screen and (max-width:376px){
       background-image:  url(${imageMobile});
       justify-content: center;
    }

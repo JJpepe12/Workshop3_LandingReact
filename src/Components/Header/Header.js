@@ -1,15 +1,13 @@
 import React from 'react';
-import Nabvar from '../Navbar/Navbar';
+import Navbar from '../Navbar/Navbar';
 import {StylesHeader} from './StylesHeader';
-import HeaderText from '../HeaderInmersive/HeaderText';
-
-
+import HeaderText from '../HeaderImmersive/HeaderImmersive';
 
 
 const Header = () => {
   return (
     <StylesHeader>
-        <Nabvar/>
+        <Navbar/>
         <HeaderText/>
     </StylesHeader>
   )
