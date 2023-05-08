@@ -8,15 +8,17 @@ export const StylesFooter = styled.nav`
   padding: 40px;
   .copyright{
     text-align: left;
+
     p {
       color: #7f7f7f;
     font-size: 14px;
     font-family: "Alata", sans-serif;
     margin-left: -115px;
+    margin-top: 7px;
     }
   }
   .contenedor_2 {
-    padding-top: 12px
+    padding-top: -5px
   }
   .Social_networks button img{
     width: 20px;
@@ -27,7 +29,9 @@ export const StylesFooter = styled.nav`
   .Link {
     display: flex;
     gap: 30px;
-    margin-left: 40px;
+    margin-left: 5px;
+    margin-top: 15px;
+    
   }
   a {
     list-style: none;
@@ -80,23 +84,25 @@ export const StylesFooter = styled.nav`
   @media (max-width: 375px) {
     gap: 5px;
     p {
-      padding-left: 120px;
+     padding-left: 140px;
     }
     .Logo img {
       display: flex;
       width: 200px;
+      margin-left: 55px;
     }
     .Link {
       display: inline-block;
       width: 60%;
       margin-top: 20px;
+      margin-left: 75px;
       line-height: 30px;
       text-align: center;
     }
     .Social_networks {
-      margin-left: 60px;
-      padding-top: 10px;
-      gap: 2px;
+      margin-left: 100px;
+      padding-top: 15px;
+      gap: 10px;
     }
     .contenedor_2 {
       column-count: 1;
