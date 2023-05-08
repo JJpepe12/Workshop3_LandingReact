@@ -17,6 +17,7 @@ export const Container = styled.div`
         margin-right: -55%;
             
         button{
+        margin-left: -865px;
         border: 2px solid #000;
         padding: 10px 30px;
         color: #000;
@@ -47,7 +48,7 @@ export const Container = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 15px 20px 40px;
     text-align: center;
 
     img {
@@ -61,10 +62,12 @@ export const Container = styled.div`
     .cards_button{
         padding: 5px 0;
         position: relative;
+        margin-left: 10%;
         button {
             position: relative;
-            top: 1700px;
-            left: -260px;
+            margin-left: 0px;
+            top: 1535px;
+            left: -290px;
             font-size: 14px;
         }
 

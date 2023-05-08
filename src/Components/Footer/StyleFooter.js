@@ -6,23 +6,24 @@ export const StylesFooter = styled.nav`
   gap: 50%;
   background-color: black;
   padding: 2%;
-  .copyright{
+  .copyright {
     text-align: left;
     text-align: center;
 
     p {
-    color: #7f7f7f;
-    font-size: 14px;
-    font-family: "Alata", sans-serif;
-    margin-left: -115px;
-    margin-top: 7px;
+      color: #7f7f7f;
+      font-size: 14px;
+      font-family: "Alata", sans-serif;
+      margin-left: -115px;
+      margin-top: 7px;
     }
   }
   .contenedor_2 {
-    padding-top: -5px
+    padding-top: -5px;
     align-items: center;
+    column-count: 1;
   }
-  .Social_networks button img{
+  .Social_networks button img {
     width: 20px;
   }
   .Logo img {
@@ -32,7 +33,7 @@ export const StylesFooter = styled.nav`
   .Link {
     display: flex;
     gap: 30px;
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 15px;
   }
   a {
@@ -83,18 +84,19 @@ export const StylesFooter = styled.nav`
       width: 20px;
     }
   }
+
   @media (max-width: 376px) {
     gap: 5px;
-    width: 100%
-    display flex;
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+
     p {
-     padding-left: 140px;
+      padding-left: 140px;
     }
     .Logo img {
       width: 200px;
-      margin-left: 55px;
+      margin-left: 90px;
     }
     .Link {
       display: inline-block;
@@ -105,7 +107,7 @@ export const StylesFooter = styled.nav`
       text-align: center;
     }
     .Social_networks {
-      margin-left: 100px;
+      margin-left: 125px;
       padding-top: 15px;
       gap: 10px;
     }

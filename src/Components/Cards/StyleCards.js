@@ -38,13 +38,12 @@ export const StylesCard = styled.article`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 376px) {
     .window1440 {
       display: none;
     }
     .mobile {
       display: inline-block;
-      margin-top: 20px;
       margin-left: -50px;
     }
     .image375 {
@@ -59,7 +58,7 @@ export const StylesCard = styled.article`
       left: 40px;
       width: 35%;
       h3 {
-        display: flex;
+      display: flex;
       color: white;
       font-family: "Alata", sans-serif;
       font-weight: lighter;

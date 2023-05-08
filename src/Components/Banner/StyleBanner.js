@@ -31,7 +31,7 @@ export const StylesBanner = styled.section`
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 10px 20px;
     text-align: center;
   
     img {
