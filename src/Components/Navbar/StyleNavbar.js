@@ -5,10 +5,10 @@ export const StylesNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 40px 70px 0;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 376px) {
     padding: 40px 20;
     flex-direction: column;
-   
+  
     background-color: ${props => props.viewOption ? 'black' : 'inherit'};
   }
 `;
@@ -21,7 +21,7 @@ export const Ul = styled.ul `
   color: white;
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 376px) {
   //Evaluar si viewoption es true se aplica flex y si es false se aplica none
   //https://styled-components.com/docs/basics#adapting-based-on-props
     display: ${props => props.viewOption ? 'flex' : 'none'};
@@ -31,20 +31,16 @@ export const Ul = styled.ul `
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
     font-weight: 300;
-    
-    
   }
 `;
 
-export const IconHamburguer = styled.figure `
+export const IconHamburger = styled.figure `
     display: none;
-  @media screen and (max-width:375px){
+  @media screen and (max-width:376px){
     display: block;
     color: white;
     font-size: 1rem;
     position: absolute;
     right: 0;
-    
-    
   }
 `;

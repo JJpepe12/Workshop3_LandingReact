@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from '../../assets/icons/logo.svg';
-import {StylesNav, IconHamburguer} from './StyleNavbar';
-import HamburguerNav from '../../assets/icons/icon-hamburger.svg';
-import HamburguerCancel from '../../assets/icons/icon-close.svg';
+import {StylesNav, IconHamburger} from './StyleNavbar';
+import HamburgerNav from '../../assets/icons/icon-hamburger.svg';
+import HamburgerCancel from '../../assets/icons/icon-close.svg';
 import MenuOptions from './MenuOptions';
 
-const Nabvar = () => {
+const Navbar = () => {
     const [viewOption, setViewOption] = React.useState(false);
     const navList = [
         {
@@ -38,11 +38,11 @@ return (
         <div>
             <img src={logo} alt="logo"  />
         </div>
-        <IconHamburguer onClick={handleClick}>
-            <img src= {viewOption ? HamburguerCancel : HamburguerNav} alt="" />
-        </IconHamburguer>
+        <IconHamburger onClick={handleClick}>
+            <img src= {viewOption ? HamburgerCancel : HamburgerNav} alt="" />
+        </IconHamburger>
         <MenuOptions navList={navList} viewOption={viewOption} />
     </StylesNav>
     );
 }
-export default Nabvar;
+export default Navbar;

@@ -16,7 +16,7 @@ const Cards = ({ agent }) => {
       <figure className="image375">
         <img src={agent.imagemobile} alt={agent.name} />
       </figure>
-     <div className="cardnameMobile">
+      <div className="cardnameMobile">
         <h3>{agent.name}</h3>
       </div>
       </div>

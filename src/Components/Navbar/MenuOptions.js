@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Ul } from './StyleNavbar';
 
 const MenuOptions = ({navList, viewOption}) => {

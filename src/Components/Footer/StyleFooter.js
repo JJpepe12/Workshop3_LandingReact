@@ -14,8 +14,8 @@ export const StylesFooter = styled.nav`
       color: #7f7f7f;
       font-size: 14px;
       font-family: "Alata", sans-serif;
-      margin-left: -115px;
-      margin-top: 7px;
+      margin-left: -127px;
+      margin-top: 14px;
     }
   }
   .contenedor_2 {
@@ -28,13 +28,13 @@ export const StylesFooter = styled.nav`
   }
   .Logo img {
     width: 140px;
-    margin-left: 30%;
+    margin-left: 100px;
   }
   .Link {
     display: flex;
     gap: 30px;
-    margin-left: 50px;
-    margin-top: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
   }
   a {
     list-style: none;
@@ -62,7 +62,8 @@ export const StylesFooter = styled.nav`
 
   .Social_networks {
     display: flex;
-    gap: 5px;
+    margin-left: 5px;
+    gap: 15px;
     button {
       background-color: transparent;
       border: none;

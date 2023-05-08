@@ -1,14 +1,14 @@
 import React from 'react'
 import {StylesText} from './StyleText'
 
-const HeaderInmersive = () => {
+const HeaderImmersive = () => {
   return (
-   <StylesText>
+    <StylesText>
       <div>
         <span>IMMERSIVE EXPERIENCES THAT DELIVER</span>
       </div>
-   </StylesText>
+    </StylesText>
   )
 }
 
-export default HeaderInmersive
+export default HeaderImmersive
